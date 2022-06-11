@@ -23,10 +23,14 @@
 
 ## Данные
 Есть 2 таблицы:  
-![Схема данных](simulator_20220420_schema.png)
+<img src="simulator_20220420_schema.png" alt="Схема данных" width="400"/>
 
 feed_actions:
 ![feed_actions](feed_actions.png)
 
 message_actions:
 ![message_actions](message_actions.png)
+
+## Сертификат
+- Файл: [certificate.pdf](certificate.pdf)
+- Ссылка: https://lab.karpov.courses/certificate/7dcf7d32-d963-445b-b53f-3a65f7f45b79/
