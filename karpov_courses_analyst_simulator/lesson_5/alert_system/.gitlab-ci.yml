@@ -1,0 +1,13 @@
+image: cr.yandex/crp742p3qacifd2hcon2/practice-da:latest
+
+stages:
+    - init
+    - run
+
+run_alert:
+    stage: run
+    retry: 1
+    only:
+        - schedules
+    script:
+        - python alert_bot.py

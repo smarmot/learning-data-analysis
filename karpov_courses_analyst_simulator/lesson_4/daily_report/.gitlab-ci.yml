@@ -1,0 +1,14 @@
+image: cr.yandex/crp742p3qacifd2hcon2/practice-da:latest
+
+stages:
+    - init
+    - run
+
+generating_report:
+    stage: run
+    retry: 1
+    only:
+        - schedules
+    script:
+        - python report_bot.py
+        - python feed_and_messages_report_bot.py
